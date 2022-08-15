@@ -1,21 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 body {
-   display: grid;
+    display: grid;
     background-color: #d5e1ef;
     height: 100vh;
     place-items: center;
+  
 }
 
-.blueSquare {
+.whiteSquare {
     border-radius: 20px;
-    border-top-color:blueviolet;
+    padding:20px;
+    width: 350px;
   
-    height: 600px;
-    width: 400px;
+   
     background-color: white;
     
 }
+
+
 .text {
+    white-space: wrap;
+    font-size: 24px;
     text-align: center;
-    margin-top: 400px;
-    font-size: 40px;;
+    font-weight: 700;
+    color: #213352;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text2 {
+    text-align: center;
+    font-weight: 400;
+    color: grey;
+    padding-bottom: 10px;
+    font-size: 16px;
 }
