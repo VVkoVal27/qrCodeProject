@@ -1,0 +1,21 @@
+body {
+   display: grid;
+    background-color: #d5e1ef;
+    height: 100vh;
+    place-items: center;
+}
+
+.blueSquare {
+    border-radius: 20px;
+    border-top-color:blueviolet;
+  
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    
+}
+.text {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 40px;;
+}
